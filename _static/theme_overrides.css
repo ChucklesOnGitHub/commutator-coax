@@ -61,7 +61,7 @@
 
 /* navigation bar: text*/
 .navbar a {
-  color: rgb(154, 50, 5) !important;
+  color: rgb(255, 255, 255) !important;
   font-family: "Miso";
   font-size: 1.2rem;
   transition-duration: 0.4s;

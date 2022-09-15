@@ -78,7 +78,7 @@ todo_include_todos = True
 # a list of builtin themes.
 #
 html_theme = "pydata_sphinx_theme"
-html_logo = "_static/images/oe_logo_template.svg"
+html_logo = "_static/images/oe_logo_name.svg"
 html_scaled_image_link = True
 
 

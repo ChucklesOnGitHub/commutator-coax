@@ -1,11 +1,19 @@
-:notoc:
+.. toctree::
+    :hidden:
+    :maxdepth: 1
+    :titlesonly:
+
+    Getting-started/index
+    Setting-up/index
+    General-usage/index
+    Hardware-guide/index
 
 *************************************************
 Open Ephys Commutators
 *************************************************
 
 
-*This is the documentation site for the Open Ephys Commutators, our range of open-source active near-zero torque commutators to prevent tether twisting during freely moving recordings of animals for coaxial and SPI interface cables.*
+*This is the documentation site for the Open Ephys Commutators, a range of open-source active near-zero torque commutators to prevent tether twisting during freely moving recordings of animals for coaxial and SPI interface cables.*
 
 It is currently under construction as of Jan 2022
 
@@ -24,10 +32,10 @@ It is currently under construction as of Jan 2022
               <p class="card-text">
                 <h2>Features<a class="headerlink" href="#key-specifications" title="Permalink to this headline">¶</a></h2>
                 <ul class="simple">
-                  <li><p>Near zero-torque active commutation (no pull on the tether needed!)</p></li>
-                  <li><p>Automatic compensation using head-mounted orientation sensors or orientation tracking</p></li>
+                  <li><p>Active near-zero torque commutation (no pull on the tether!)</p></li>
+                  <li><p>Automatic compensation using head-mounted orientation sensors or tracking</p></li>
                   <li><p>Remote control via open-source software as well as manual control buttons</p></li>
-                  <li><p>Silent operation thanks to the voltage-controlled advanced stepper driver</p></li>
+                  <li><p>Silent operation thanks to its voltage-controlled advanced stepper driver</p></li>
                   <li><p>Precise motion using step interpolation (256 uSteps/step)</p></li>
                   <li><p>Optical table and 80/20 rail mountable</p></li>
                   <li><p>Single USB connection for power and control</p></li>
@@ -75,7 +83,7 @@ You can order Commutators from `Open Ephys Production Site <https://open-ephys.o
                 <img src="_static/images/noun_books.svg" class="card-img-top" height="120">
                 <div class="card-body">
                   <h5 class="card-title">General Usage</h5>
-                  <p class="card-text">How to use our commutators</p>
+                  <p class="card-text">How to use the commutators</p>
                 </div>
               </a>
             </div>

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>NAME OF DEVICE &#8212; Coaxial Commutator 0.0.0 documentation</title>
+    <title>Commutators &#8212; OE Commutators 0.0.0 documentation</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -32,7 +32,6 @@
     <link rel="shortcut icon" href="_static/favicon.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="About" href="About/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -69,12 +68,7 @@
       
       <div class="navbar-center-item">
         <ul id="navbar-main-elements" class="navbar-nav">
-    <li class="toctree-l1 nav-item">
- <a class="reference internal nav-link" href="About/index.html">
-  About
- </a>
-</li>
-
+    
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://open-ephys.org">Open Ephys<i class="fas fa-external-link-alt"></i></a>
@@ -145,95 +139,58 @@
               
               <div>
                 
-  <section id="name-of-device">
-<h1>NAME OF DEVICE<a class="headerlink" href="#name-of-device" title="Permalink to this headline">#</a></h1>
-<p><strong>Date</strong>: Sep 15, 2022</p>
-<p>This site provides documentation for [INSERT PROJECT HERE], that [SHORT DESCRIPTION OF STUFF PROJECT DOES].</p>
-<section id="it-is-currently-under-construction">
-<h2>It is currently under construction<a class="headerlink" href="#it-is-currently-under-construction" title="Permalink to this headline">#</a></h2>
-<p>It will eventually include the following information:</p>
-<ul class="simple">
-<li><p>Point 1</p></li>
-<li><p>Point 2</p></li>
-<li><p>Point 3</p></li>
-</ul>
+  <section id="commutators">
+<h1>Commutators<a class="headerlink" href="#commutators" title="Permalink to this headline">#</a></h1>
+<p><em>This is the documentation site for the Open Ephys Commutators, our range of open-source active near-zero torque commutators to prevent tether twisting during freely moving recordings of animals for coaxial and SPI interface cables.</em></p>
+<p>It is currently under construction as of Jan 2022</p>
+<section id="where-to-buy-one">
+<h2>Where to buy one<a class="headerlink" href="#where-to-buy-one" title="Permalink to this headline">#</a></h2>
+<p>You can order Commutators from <a class="reference external" href="https://open-ephys.org/store">Open Ephys Production Site</a> , as well as compatible acquisition systems, headstages and miniscopes.</p>
 </section>
-<section id="what-to-customize">
-<h2>What to customize<a class="headerlink" href="#what-to-customize" title="Permalink to this headline">#</a></h2>
-<p>Each documentation page is saved as an individual .rst file in the ‘source’ folder. Docs are written primarily in reStructuredText, and HTML can be used within the .rst file. Images are saved under _static. Besides obviously customizing the content of the pages, you will need to make sure to update:</p>
-<ul>
-<li><p>license (at the end of primary index page)</p></li>
-<li><dl>
-<dt>conf.py:</dt><dd><ul>
-<li><p>project = “OE docs”  # change to your project name</p></li>
-<li><p>“github_repo”: “doc-template”,  # change to new repo</p></li>
-<li><p>html_logo = “_static/images/oe_logo_template.svg” # change to svg with your logo</p>
-<blockquote>
-<div><p>Change the device name on the logo “oe_logo_name.svg”
-Miso, Bold, 36 pt, Kerning: Optical
-Be sure to expand text before saving as .svg as Miso will not load as font.</p>
-</div></blockquote>
-</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>theme_overrides.css</dt><dd><ul class="simple">
-<li><p>Change overhead navigation bar colour (.navbar { background: yourfavecolour })</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>.github/workflows/sphinx-build.yml</dt><dd><ul class="simple">
-<li><p>git clone <a class="reference external" href="https://github.com/open-ephys/doc-template.git">https://github.com/open-ephys/doc-template.git</a> # change to your repo</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-<h2 style = "text-align: center"> Getting Started </h2>
-
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">#</a></h2>
 <div class="container">
   <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
     <div class="col mb-4">
-      <div class="card h-100 text-center intro-card shadow">
-        <a href = About/example1.html>
-            <img src="_static/images/noun_screwdriver.svg" class="card-img-top" height="160">
-            <div class="card-body flex-fill">
-              <p class="card-reference">TOPIC 1</p>
-            </div>
-        </a>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card h-100 text-center intro-card shadow">
-        <a href =  About/example2.html>
-            <img src="_static/images/noun_books.svg" class="card-img-top" height="160">
-            <div class="card-body flex-fill">
-              <p class="card-reference">TOPIC 2</p>
-            </div>
-        </a>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card h-100 text-center intro-card shadow">
-        <a href = "About/index.html" target="_blank" rel="noopener noreferrer">
-          <img src="_static/images/paper.svg" class="card-img-top" height="160">
-          <div class="card-body flex-fill">
-            <p class="card-reference">TOPIC 3 </p>
+      <div class="card h-100">
+        <a href = pages/assemblyguide.html>
+          <img src="_static/images/noun_screwdriver.svg" class="card-img-top" height="120">
+          <div class="card-body">
+            <h5 class="card-title">Getting Started</h5>
+            <p class="card-text">Read this if you're just starting out</p>
           </div>
         </a>
-
       </div>
     </div>
     <div class="col mb-4">
-      <div class="card h-100 text-center intro-card shadow">
-        <a href = "https://github.com/open-ephys" target="_blank" rel="noopener noreferrer">
-          <img src="_static/images/noun_macbook.svg" class="card-img-top" height="160" >
-          <div class="card-body flex-fill">
-            <p class="card-reference">TOPIC 4 IS EXTERNAL LINK<i class="fas fa-external-link-alt" style = "font-size:0.5em; vertical-align: super"></i></p>
+      <div class="card h-100">
+        <a href = pages/usingtwister.html>
+          <img src="_static/images/twist.svg" class="card-img-top" height="120">
+          <div class="card-body">
+            <h5 class="card-title">Setup</h5>
+            <p class="card-text">Learn how to set up commutators</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <a href = "https://iopscience.iop.org/article/10.1088/1741-2552/ab77fa" target="_blank" rel="noopener noreferrer">
+          <img src="_static/images/paper.svg" class="card-img-top" height="120">
+          <div class="card-body">
+            <h5 class="card-title">General Usage</h5>
+            <p class="card-text">How to use our commutators</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <a class="card-reference" href = "https://open-ephys.org/twister-3" target="_blank" rel="noopener noreferrer">
+          <img src="_static/images/noun_macbook.svg" class="card-img-top" height="120" >
+          <div class="card-body">
+            <h5 class="card-title">Hardware Guide</h5>
+            <p class="card-text">Specifics of different commutator models</p>
           </div>
         </a>
       </div>
@@ -244,8 +201,6 @@ Be sure to expand text before saving as .svg as Miso will not load as font.</p>
 <h2>License<a class="headerlink" href="#license" title="Permalink to this headline">#</a></h2>
 <p>This work is licensed under CC BY-SA 4.0.</p>
 <p>To view a copy of this license, visit <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></p>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 </section>
 
@@ -255,13 +210,6 @@ Be sure to expand text before saving as .svg as Miso will not load as font.</p>
               
               <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="About/index.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">About</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
 </div>
               
           </main>
@@ -277,7 +225,7 @@ Be sure to expand text before saving as .svg as Miso will not load as font.</p>
     
     <div class="footer-item">
       <p class="copyright">
-    &copy; Copyright 2010-2022, Open Ephys &amp; Contributors.<br>
+    &copy; Copyright 2010-2023, Open Ephys &amp; Contributors.<br>
 </p>
     </div>
     

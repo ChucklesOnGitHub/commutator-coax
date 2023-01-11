@@ -52,8 +52,8 @@
   src: url("fonts/miso-light.woff")  format('woff');
 }
 
-/* 2f401f for white
-/* e6eddf for black
+/* 2f401f for white hover
+/* e6eddf for black hover
 
 /* overhead navigation bar*/
 .navbar {
@@ -63,7 +63,7 @@
 
 /* navigation bar: text*/
 .navbar a {
-  color: #e6eddf !important;
+  color: #ffffff !important;
   font-family: "Miso";
   font-size: 1.2rem;
   transition-duration: 0.4s;

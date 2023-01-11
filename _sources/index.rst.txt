@@ -1,7 +1,7 @@
 :notoc:
 
 *************************************************
-Commutators
+Open Ephys Commutators
 *************************************************
 
 
@@ -10,6 +10,7 @@ Commutators
 It is currently under construction as of Jan 2022
 
 .. raw:: html
+
     <div class="container">
       <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
         <div class="col">
@@ -23,27 +24,25 @@ It is currently under construction as of Jan 2022
               <p class="card-text">
                 <h2>Features<a class="headerlink" href="#key-specifications" title="Permalink to this headline">¶</a></h2>
                 <ul class="simple">
-                  <li><p>Fast: Make 70 tetrodes per hour</p></li>
-                  <li><p>Constant wire tension during twist</p></li>
-                  <li><p>Automation increases repeatability</p></li>
-                  <li><p>No need to fold wire before twisting</p></li>
-                  <li><p>Control box sets twist parameters</p></li>
-                  <li><p>Easy  to assemble</p></li>
+                  <li><p>Near zero-torque commutation (no pull on the tether needed!)</p></li>
+                  <li><p>Automatic compensation using head-mounted orientation sensors or orientation tracking</p></li>
+                  <li><p>Remote control via open-source software as well as manual control buttons</p></li>
+                  <li><p>Silent operation thanks to the voltage-controlled advanced stepper driver</p></li>
+                  <li><p>Precise motion using step interpolation (256 uSteps/step)</p></li>
+                  <li><p>Optical table and 80/20 rail mountable</p></li>
+                  <li><p>Single USB connection for power and control</p></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <br>
-      <h2 style = "text-align: center"> Getting Started </h2>
+
 
 Where to buy one
 ###################################
 You can order Commutators from `Open Ephys Production Site <https://open-ephys.org/store>`_ , as well as compatible acquisition systems, headstages and miniscopes.
 
-Getting Started
-####################################
 .. raw:: html
 
       <div class="container">
@@ -64,7 +63,7 @@ Getting Started
               <a href = pages/usingtwister.html>
                 <img src="_static/images/twist.svg" class="card-img-top" height="120">
                 <div class="card-body">
-                  <h5 class="card-title">Setup</h5>
+                  <h5 class="card-title">Setting up</h5>
                   <p class="card-text">Learn how to set up commutators</p>
                 </div>
               </a>
